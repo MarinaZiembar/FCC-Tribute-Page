@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
+body {
+  background-image: url("https://1.bp.blogspot.com/-cvJN8km3aCM/X2-utrrlwOI/AAAAAAAA5zM/sNg-pkbrDgEQYpiWZ_-ngvZWntUnqq_tgCLcBGAsYHQ/w1926-h3082/Ada-Lovelace.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Montserrat", serif;
+  color: white;
+}
+
+header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+header h1 {
+  font-family: "Montserrat", serif;
+  font-size: 20px;
+}
+header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+main #title {
+  margin-top: -250px;
+  padding-left: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 105px;
+  font-weight: 500;
+  line-height: 1;
+}
+main h2 {
+  padding-top: 250px;
+  padding-right: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1;
+}
+main .dash {
+  height: 2px;
+  width: 330px;
+  background-color: white;
+}
+main p {
+  font-size: 14px;
+  width: 60%;
+  padding-right: 45px;
+  text-align: right;
+}
+
+.date-container {
+  margin-top: -220px;
+}
+
+.date {
+  padding: 15px 0px;
+}
+.date .dash {
+  height: 2px;
+  width: 100px;
+  background-color: white;
+}
+.date h3 {
+  padding-left: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.date p {
+  padding-left: 35px;
+  padding-right: 70px;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+}
+
+.quote {
+  margin-top: -90px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+.quote blockquote {
+  font-size: 26px;
+}
+.quote blockquote .blockquote-footer {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  main #title {
+    margin-top: 30px;
+    padding-left: 15px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  main h2 {
+    padding-top: 50px;
+    padding-right: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  main .dash {
+    height: 2px;
+    width: 280px;
+    background-color: white;
+  }
+  main p {
+    font-size: 14px;
+    width: 70%;
+    padding-right: 30px;
+    text-align: right;
+  }
+
+  .date-container {
+    margin-top: 20px;
+  }
+
+  .date {
+    padding: 15px 0px;
+  }
+  .date .dash {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+  }
+  .date h3 {
+    padding-left: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .date p {
+    padding-left: 35px;
+    padding-right: 70px;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .quote {
+    margin-top: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+  }
+  .quote blockquote {
+    font-size: 26px;
+  }
+}
